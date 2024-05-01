@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shopping</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main></main>
+
+    <!-- Container for the content -->
+     <div class="container">
+        <h1>Smart-Cart</h1><hr>
+
+
+        <!-- Filter products by category -->
+        <label for="category-filter">Filter by category:</label>
+        <select id="category-filter">
+            <option value="">All</option>
+            <option value="Fruit">Fruit</option>
+            <option value="Vegetable">Vegetable</option>
+            <option value="Toiletries">Toiletries</option>
+            <option value="Drinks">Drinks</option>
+
+        </select>
+
+
+        <!-- Display list of products -->
+     
+        <ul class="product-grid"  id="product-list"></ul><hr>
+
+
+     
+
+
+    </main>
+    <footer>
+            <!-- Display total price of products -->
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <p>THANKS FOR SHOPPING WITH US</p>
+    </footer>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
